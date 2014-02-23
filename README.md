@@ -9,8 +9,8 @@ That will be convenient for user to select which he wants.
 support IE8+ and other modern browsers, let's bury IE6 and IE7!! 
 
 ##### requires :
-jquery 1.7+
-Mustache template engine
+- jquery 1.7+
+- Mustache template engine
 
 ### how to use
 create a container for the widget :
@@ -89,8 +89,7 @@ a callback which will be invoked when select item.
 **items :**
 selection items.
 
-
-At last, in a word, it's very easy to use, and the source code isn't uglified, you can change it in any way you like!
+Look, it's very easy to use, and the source code isn't uglified, you can change it in any way you like!
 
 
 
