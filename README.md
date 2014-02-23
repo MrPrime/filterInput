@@ -10,7 +10,6 @@ support IE8+ and other modern browsers, let's bury IE6 and IE7!!
 
 ##### requires :
 jquery 1.7+
-
 Mustache template engine
 
 ### how to use
