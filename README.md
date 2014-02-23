@@ -1,15 +1,16 @@
 # filterInput 
 > an esay-to-use widget based on jQuery
 
-#### when it will be useful :
+##### when it will be useful :
 if the length of selection items is a bit long, items can be filtered by typing keywords.
 That will be convenient for user to select which he wants. 
 
-#### browser compatibility :
+##### browser compatibility :
 support IE8+ and other modern browsers, let's bury IE6 and IE7!! 
 
-#### requires :
+##### requires :
 jquery 1.7+
+
 Mustache template engine
 
 ### how to use
@@ -90,7 +91,7 @@ a callback which will be invoked when select item.
 selection items.
 
 
-At last, it's very easy to use, and the source code isn't uglified, you can change it in any way you like!
+At last, in a word, it's very easy to use, and the source code isn't uglified, you can change it in any way you like!
 
 
 
