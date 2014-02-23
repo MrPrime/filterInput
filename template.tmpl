@@ -1,0 +1,32 @@
+<div class="ui-widget-inputtxt" id="filterInput">
+    <div class="inputtxt-wrapper">
+        <input type="text" value="{{init.label}}" name="{{id}}_label" class="input-txt" data-role="label" readonly>
+        <input type="hidden" value="{{init.value}}" name="{{id}}_value" data-role="value">
+        <i class="inputtxt-icon drop-icon"></i>
+        {{#clearbtn}}
+        <i class="inputtxt-icon clear-icon"></i> 
+        {{/clearbtn}}
+    </div>
+    <div class="ui-widget-dropbox ui-widget-hidden" style="top:24px;">
+        <div class="drop-filter">
+            <div class="drop-filter-hd">
+                <div class="ui-widget-inputtxt" style="margin:0">
+                    <div class="inputtxt-wrapper">
+                        <input type="text" class="input-txt" data-role="filter">
+                        <i class="inputtxt-icon find-icon"></i>
+                    </div>
+                </div>
+            </div>
+            <h4 class="drop-filter-title">{{title}}</h4>
+            <div class="drop-filter-bd">
+                <ul>
+                    {{#items}}
+                    <li data-value="{{value}}" data-label="{{label}}" class="filter-item">
+                        {{{hl_label}}}
+                    </li>
+                    {{/items}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

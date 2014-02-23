@@ -1,10 +1,12 @@
 # filterInput - an esay-to-use widget based on jQuery
 
 **when it will be useful :**
+
 if the length of selection items is a bit long, items can be filtered by typing keywords.
 That will be convenient for user to select which he wants. 
 
 **browser compatibility :**
+
 support IE8+ and other modern browsers, let's bury IE6 and IE7!! 
 
 **requires :**
@@ -12,13 +14,13 @@ support IE8+ and other modern browsers, let's bury IE6 and IE7!!
 - Mustache template engine
 
 ### how to use
-1. **create a container for the widget :**
+**create a container for the widget :**
 
 ```html
 <div id="filterinput"></div>
 ```
 
-2. **import related js files at the bottom of `body` :**
+**import related js files at the bottom of `body` :**
 
 ```js
 <script src="js/jquery-1.10.2.min.js"></script>
@@ -26,7 +28,7 @@ support IE8+ and other modern browsers, let's bury IE6 and IE7!!
 <script src="js/filterInput.js"></script>
 ```
 
-3. **invoke constructor function `FilterInput` :**
+**invoke constructor function `FilterInput` :**
 
 ```js
 var instance = new FilterInput({
